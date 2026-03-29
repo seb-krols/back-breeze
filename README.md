@@ -1,6 +1,6 @@
 # BackBreeze
 
-> A parametric mesh generator for 3D-printable backpack ventilation inserts — built because Singapore is humid and existing solutions don't work.
+> A parametric mesh generator for 3D-printable backpack ventilation inserts - built because Singapore is humid and existing solutions don't work.
 
 <video src="https://github.com/user-attachments/assets/73a85a21-50fc-47c4-8c07-aee0fcbc4a83" autoplay loop muted playsinline width="100%"></video>
 
@@ -8,7 +8,7 @@
 
 ## The Problem
 
-Carrying a backpack in Singapore means a sweaty back — guaranteed. The gap between your back and the bag is sealed shut, no airflow, no escape. Existing solutions (padded backs, mesh panels built into bags) are either ineffective or require buying a whole new bag.
+Carrying a backpack in Singapore means a sweaty back - guaranteed. The gap between your back and the bag is sealed shut, no airflow, no escape. Existing solutions (padded backs, mesh panels built into bags) are either ineffective or require buying a whole new bag.
 
 The real fix is structural: create a physical air gap with a rigid-but-flexible insert that sits between your back and the bag, open at the edges for air intake and strong enough in the center to bear the load.
 
@@ -16,7 +16,7 @@ The real fix is structural: create a physical air gap with a rigid-but-flexible 
 
 ## What BackBreeze Does
 
-BackBreeze generates parametric TPU mesh inserts — 3D-printable, ergonomically shaped, and structurally engineered for ventilation. The core innovation is **gradient density**: the mesh is open and airy at the edges where air flows in, and progressively denser toward the spine where structural support matters.
+BackBreeze generates parametric TPU mesh inserts - 3D-printable, ergonomically shaped, and structurally engineered for ventilation. The core innovation is **gradient density**: the mesh is open and airy at the edges where air flows in, and progressively denser toward the spine where structural support matters.
 
 The insert follows an ergonomic S-curve back profile, adapting to lumbar and thoracic curvature so it actually sits flush against your back rather than bridging awkwardly.
 
@@ -32,7 +32,7 @@ BackBreeze is built in two layers:
 The core mesh generator handles all the hard geometry: pattern generation (honeycomb, diamond, Voronoi), gradient density mapping, S-curve profile projection, TPU printability validation (minimum 1.2mm feature size enforcement), and STL export. Runs as a standalone Python tool or called programmatically via API.
 
 **React Web Configurator**
-A browser-based interface wrapping the generation engine. Customers configure their insert using simplified controls — airflow level (1–5), weight support category, backpack size preset — which map to the underlying parametric parameters. The 3D mesh preview updates in-browser with full rotation and zoom. Configurations are submitted as orders capturing all generation parameters.
+A browser-based interface wrapping the generation engine. Customers configure their insert using simplified controls - airflow level (1-5), weight support category, backpack size preset — which map to the underlying parametric parameters. The 3D mesh preview updates in-browser with full rotation and zoom. Configurations are submitted as orders capturing all generation parameters.
 
 ---
 
@@ -75,7 +75,7 @@ v1 complete. Actively refining mesh quality, print validation, and configurator 
 
 ## This is a Showcase
 
-This is a public showcase of a private project. Source code is kept private — the IP here is in the geometry engine and gradient density approach, and I intend to commercialize it.
+This is a public showcase of a private project. Source code is kept private - the IP here is in the geometry engine and gradient density approach, and I intend to commercialize it.
 
 Interested in collaborating, printing a prototype, or just want to talk through the approach? Reach out.
 
