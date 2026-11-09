@@ -32,7 +32,7 @@ BackBreeze is built in two layers:
 The core mesh generator handles all the hard geometry: pattern generation (honeycomb, diamond, Voronoi), gradient density mapping, S-curve profile projection, TPU printability validation (minimum 1.2mm feature size enforcement), and STL export. Runs as a standalone Python tool or called programmatically via API.
 
 **React Web Configurator**
-A browser-based interface wrapping the generation engine. Customers configure their insert using simplified controls - airflow level (1-5), weight support category, backpack size preset — which map to the underlying parametric parameters. The 3D mesh preview updates in-browser with full rotation and zoom. Configurations are submitted as orders capturing all generation parameters.
+A browser-based interface wrapping the generation engine. Customers configure their insert using simplified controls - airflow level (1-5), weight support category, backpack size preset - which map to the underlying parametric parameters. The 3D mesh preview updates in-browser with full rotation and zoom. Configurations are submitted as orders capturing all generation parameters.
 
 ---
 
@@ -50,13 +50,13 @@ A browser-based interface wrapping the generation engine. Customers configure th
 
 ## Key Features
 
-- **3 mesh patterns** — honeycomb, diamond, Voronoi — each with different structural and airflow characteristics
-- **Gradient density control** — open edges for air intake, dense center for load bearing, adjustable gradient curve
-- **Ergonomic S-curve profile** — configurable lumbar depth and thoracic curve, not a flat slab
-- **Airflow analysis** — drag coefficient, open area ratio, contact surface area, sweat resistance score
-- **TPU printability enforcement** — minimum 1.2mm feature size, watertight manifold geometry, print validation warnings
-- **Dual workflow** — quick preview mode (<2s) for iteration, high-resolution STL export for production
-- **Browser 3D configurator** — live mesh preview, simplified controls, order submission
+- **3 mesh patterns** - honeycomb, diamond, Voronoi - each with different structural and airflow characteristics
+- **Gradient density control** - open edges for air intake, dense center for load bearing, adjustable gradient curve
+- **Ergonomic S-curve profile** - configurable lumbar depth and thoracic curve, not a flat slab
+- **Airflow analysis** - drag coefficient, open area ratio, contact surface area, sweat resistance score
+- **TPU printability enforcement** - minimum 1.2mm feature size, watertight manifold geometry, print validation warnings
+- **Dual workflow** - quick preview mode (<2s) for iteration, high-resolution STL export for production
+- **Browser 3D configurator** - live mesh preview, simplified controls, order submission
 
 ---
 
@@ -83,9 +83,9 @@ Interested in collaborating, printing a prototype, or just want to talk through 
 
 ## Contact
 
-**Sebastian Krols**
-[github.com/seb-krols](https://github.com/seb-krols) · [LinkedIn](https://linkedin.com/in/sebastiankrols)
+**Sebastians Krols**
+[github.com/seb-krols](https://github.com/seb-krols) · [LinkedIn](https://www.linkedin.com/in/sebastians-krols/)
 
 ---
 
-*© 2026 Sebastian Krols. All rights reserved.*
+*© 2026 Sebastians Krols. All rights reserved.*
